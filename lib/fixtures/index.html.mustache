@@ -11,7 +11,10 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="format-detection" content="telephone=no">
 
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    {{#baseStyle}}
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="{{{root}}}/src/bundle.css">
+    {{/baseStyle}}
     {{#cssFils}}
       <link rel="stylesheet" href="{{{.}}}">
     {{/cssFils}}

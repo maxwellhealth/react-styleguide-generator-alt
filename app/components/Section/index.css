@@ -68,7 +68,6 @@
   padding: 0 20px;
   color: var(--gray);
   border-top: 1px solid var(--gray-lighter);
-  font-size: 14px;
 }
 
 .sg-section-description * {
@@ -79,7 +78,6 @@
   color: inherit;
   border: none;
   background: transparent;
-  font: 300 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .sg-section-description > * {
