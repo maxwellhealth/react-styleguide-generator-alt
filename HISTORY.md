@@ -1,3 +1,8 @@
+# UNRELEASED
+* Add baseStyle boolean option to disable inclusion of base stylesheet
+  * -b or --baseStyle on CLI
+  * "baseStyle" property in configuration JSON
+
 # 3.12.4 (2016-07-31)
   * Allow "entry" value of webpack configuration to be either Object or Array
 
