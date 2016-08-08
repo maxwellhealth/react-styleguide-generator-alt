@@ -1,4 +1,4 @@
-# UNRELEASED
+# 3.13.0 (2016-08-08)
 * Add baseStyle boolean option to disable inclusion of base stylesheet
   * -b or --baseStyle on CLI
   * "baseStyle" property in configuration JSON
