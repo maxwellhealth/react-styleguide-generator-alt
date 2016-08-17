@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "react": "^0.14.0",
-    "react-bootstrap": "0.27.1",
+    "react-bootstrap": "0.28.3",
     "react-dom": "^0.14.0"
   },
   "devDependencies": {

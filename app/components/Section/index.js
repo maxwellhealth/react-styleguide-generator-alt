@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react'
 import marked from 'marked'
 import hljs from 'highlight.js'
 import reactDocGenToMD from '../../utils/react-docgen-to-md'
-import Tabs from 'react-simpletabs'
+import Tabs from 'react-simpletabs-alt'
 import utils from '../../../lib/utils'
 
 // Generated file using react-docgen created by the rsg.js and webpack-plugins/react-docgen.js lib
