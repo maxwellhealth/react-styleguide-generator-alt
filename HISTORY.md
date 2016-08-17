@@ -1,3 +1,10 @@
+# UNRELEASED
+  * Updated tabs to use NPM module `react-simpletabs-alt` instead of `github:matthewgertner/react-simpletabs`
+    * No change in functionality
+    * React 15.x compatible
+  * Upgraded `react-bootstrap` dependency minor version
+    * React 15.x compatible
+
 # 3.13.0 (2016-08-08)
 * Add baseStyle boolean option to disable inclusion of base stylesheet
   * -b or --baseStyle on CLI
