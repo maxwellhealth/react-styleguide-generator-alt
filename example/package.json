@@ -12,7 +12,7 @@
     "react-dom": "^0.14.0"
   },
   "devDependencies": {
-    "rsg-alt": "file:../",
+    "rsg-alt": "*",
     "serve": "^1.4.0"
   }
 }
