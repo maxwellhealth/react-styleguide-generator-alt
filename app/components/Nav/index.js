@@ -15,7 +15,7 @@ export default class Nav extends Component {
   }
 
   absoluteHref (...parts) {
-    return window.config.hashbang ? parts.join('/') : home + parts.join('/')
+    return window.config.hashbang ? home + "#!" + parts.join('/') : home + parts.join('/')
   }
 
   render () {
