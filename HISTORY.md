@@ -1,3 +1,6 @@
+# UNRELEASED
+  * scope json loader to appDir
+
 # 3.13.1 (2016-08-17)
   * Updated tabs to use NPM module `react-simpletabs-alt` instead of `github:matthewgertner/react-simpletabs`
     * No change in functionality
