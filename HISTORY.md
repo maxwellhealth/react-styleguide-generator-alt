@@ -1,4 +1,4 @@
-# UNRELEASED
+# 3.14.0 (2016-08-22)
   * scope json loader to appDir
 
 # 3.13.1 (2016-08-17)
