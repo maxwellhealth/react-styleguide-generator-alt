@@ -1,3 +1,7 @@
+# Undefined
+
+  * Replace the custom `deepmerge` package via git with `deepmerge-alt`
+
 # 3.14.0 (2016-08-22)
   * scope json loader to appDir
 
