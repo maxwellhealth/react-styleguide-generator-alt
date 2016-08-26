@@ -1,4 +1,4 @@
-# Undefined
+# 3.15.0 (2016-08-25)
 
   * Replace the custom `deepmerge` package via git with `deepmerge-alt`
 
