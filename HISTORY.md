@@ -1,3 +1,6 @@
+# UNRELEASED
+  * Allow configuration of webpack dev server via devServer stanza of webpack config.
+  
 # 3.15.0 (2016-08-25)
 
   * Replace the custom `deepmerge` package via git with `deepmerge-alt`
