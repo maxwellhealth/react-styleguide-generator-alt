@@ -1,4 +1,4 @@
-# UNRELEASED
+# 3.15.1 (2017-01-18)
   * Reload page when module cannot hot reload
   
 # 3.15.0 (2016-08-25)
