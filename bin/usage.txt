@@ -5,6 +5,7 @@ Options:
   -t, --title      Used as a page title        ['Style Guide']
   -r, --root       Set the root path           ['.']
   -f, --files      Inject references to files  ['']
+  -b, --baseStyle  Enable base stylesheet      [true]
   -c, --config     Use a js/json config file   ['styleguide.json']
   -p, --pushstate  Enable HTML5 pushState      [false]
   -v, --verbose    Verbose output              [false]

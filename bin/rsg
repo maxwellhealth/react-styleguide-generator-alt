@@ -1,7 +1,13 @@
 #!/usr/bin/env node
 
 var RSG = require('../lib/rsg')
-var argv = require('minimist')(process.argv.slice(2))
+var argv = require('minimist')(process.argv.slice(2), {
+  boolean: ['b', 'baseStyle'],
+  default: {
+    b: true,
+    baseStyle: true
+  }
+})
 var log
 
 !(function () {
@@ -21,6 +27,7 @@ var log
     root: argv.r || argv.root,
     pushstate: argv.p || argv.pushstate,
     files: argv.f || argv.files,
+    baseStyle: argv.b === false || argv.baseStyle === false ? false : true,
     config: argv.c || argv.config,
     dev: argv.d || argv.dev,
     verbose: argv.v || argv.verbose
@@ -28,9 +35,9 @@ var log
 
   log = require('../lib/logger')('bin', { debug: true })
 
-  // removing falsy fields from an opts
+  // removing undefined fields from an opts
   Object.keys(opts).forEach(function (name) {
-    if (!opts[name]) {
+    if (opts[name] === undefined) {
       delete opts[name]
     }
   })

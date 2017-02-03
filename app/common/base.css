@@ -1,3 +1,7 @@
+html {
+  font: 300 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .sg {
   box-sizing: border-box;
   margin: 0;
@@ -6,7 +10,6 @@
   color: inherit;
   border: none;
   background: transparent;
-  font: 300 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -21,7 +24,7 @@ label.sg {
 
 a.sg,
 button.sg {
-  text-decoration: none !important;
+  text-decoration: none;
   touch-action: none;
 }
 

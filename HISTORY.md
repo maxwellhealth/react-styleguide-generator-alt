@@ -1,9 +1,42 @@
+# 3.16.0 (2017-01-18)
+  * Allow configuration of webpack dev server via devServer stanza of webpack config.
+
+# 3.15.1 (2017-01-18)
+  * Reload page when module cannot hot reload
+
+  
+# 3.15.0 (2016-08-25)
+
+  * Replace the custom `deepmerge` package via git with `deepmerge-alt`
+
+# 3.14.0 (2016-08-22)
+  * scope json loader to appDir
+
+# 3.13.1 (2016-08-17)
+  * Updated tabs to use NPM module `react-simpletabs-alt` instead of `github:matthewgertner/react-simpletabs`
+    * No change in functionality
+    * React 15.x compatible
+  * Upgraded `react-bootstrap` dependency minor version
+    * React 15.x compatible
+
+# 3.13.0 (2016-08-08)
+* Add baseStyle boolean option to disable inclusion of base stylesheet
+  * -b or --baseStyle on CLI
+  * "baseStyle" property in configuration JSON
+
+# 3.12.4 (2016-07-31)
+  * Allow "entry" value of webpack configuration to be either Object or Array
+
+# 3.12.3 (2016-07-19)
+  * Fix broken demo issue with optional render for tabbed examples
+  * Provide examples of stateless components and createClass static usage
+
 # 3.12.1 (2016-07-02)
   * Fixed wrong path to 'publicPath' variable from webpackConfig
 
 # 3.11.2 (2016-07-01)
   * Fix to render also pure function components
-  
+
 # 3.11.1 (2016-06-22)
   * Fix coding style violations
   * Fixing all npm modules to specific versions

@@ -39,10 +39,12 @@ export default class Sections extends Component {
           Content.styleguide._id = i
 
           const props = { ...this.props, ...Content.styleguide.props }
+          // Logical fork of stateless function components and other components
+          const stateful = Content.prototype.isReactComponent === Component.prototype.isReactComponent
 
           return (
             <Section {...Content.styleguide} key={i}>
-              {(Content.prototype.render || Content) && <Content {...props} />}
+              {(!stateful || Content.prototype.render && stateful) && <Content {...props} />}
             </Section>
           )
         })}
